@@ -97,7 +97,7 @@
                 <!-- Set the update rate of the sensor -->
                 <update_rate>30</update_rate>
 
-                <ray> 
+                <ray>
                     <!-- The scan element contains the horizontal and vertical beams.
                         We are leaving out the vertical beams for this tutorial. -->
                     <scan>
@@ -133,13 +133,6 @@
                         <!-- Linear resolution of the beam -->
                         <resolution>0.02</resolution>
                     </range>
-
-                    <noise>
-                        <!-- Use gaussian noise -->
-                        <type>gaussian</type>
-                        <mean>0.0</mean>
-                        <stddev>0.02</stddev>
-                    </noise>   
                 </ray>
             </sensor>
         </link>
